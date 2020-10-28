@@ -151,7 +151,6 @@ class AddComments extends Component {
         })
             .then((res) => {
                 res = res.data;
-                const comment = res.comment;
                 if (res.status === 1) {
                     this.setState({
                         submitting: false,

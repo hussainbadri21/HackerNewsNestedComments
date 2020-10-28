@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Icon, Tooltip} from "antd";
 import EditorBlock from "./editorBlock";
 import Editor from "./editor";
 import moment from "moment-timezone";
