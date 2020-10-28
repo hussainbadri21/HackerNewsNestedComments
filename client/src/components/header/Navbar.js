@@ -74,6 +74,17 @@ const Navbar = ({name,img,changeUser}) => {
                         color:#ff6600;
                         opacity:1;
                     }
+                     .navbar-right-container .left-container .user-img{
+                         height:40px;
+                         width:40px;
+                         position: relative;
+                         top: 0;
+                         flex-shrink: 0;
+                         border-radius: 50%;
+                     }
+                     .navbar-right-container .right-container{
+                           margin-left: 1rem;
+                     }
                          @media only screen and (max-device-width: 760px) {
                          .navbar-right-container{
                              margin-left: 1.5rem;

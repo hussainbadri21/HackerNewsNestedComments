@@ -258,7 +258,7 @@ class AddComments extends Component {
                         .body-container .change-thread-btn{
                            margin-left: 1rem;
                            margin-bottom: 2rem;
-                        }
+                        }                     
                         
                     `}
                 </style>
